@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textview" />
+
+    <EditText
+        android:id="@+id/so1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/b_n_nh_p_s_u"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/so2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/b_n_nh_p_s_ti_p"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/ketqua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/k_t_qu" />
+
+    <Button
+    android:id="@+id/btncong"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/c_ng" />
+
+    <Button
+        android:id="@+id/btntru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tru" />
+
+    <Button
+        android:id="@+id/btnnhan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nh_n" />
+
+    <Button
+        android:id="@+id/btnchia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chiaa" />
+</LinearLayout>

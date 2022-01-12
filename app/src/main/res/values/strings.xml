@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">minhhoavemaytinh</string>
+    <string name="textview">Textview</string>
+    <string name="b_n_nh_p_s_u">Bạn nhập số đầu</string>
+    <string name="b_n_nh_p_s_ti_p">Bạn nhập số tiếp</string>
+    <string name="k_t_qu">Kết quả</string>
+    <string name="c_ng">Cộng</string>
+    <string name="chia">Chia</string>
+
+    <string name="nh_n">nhân</string>
+    <string name="chiaa">chiaa</string>
+    <string name="tru">Tru</string>
+</resources>
